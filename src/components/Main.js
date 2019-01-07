@@ -7,7 +7,7 @@ import '../App.css';
 import {Elements, StripeProvider} from 'react-stripe-elements';
 import Cart from '../containers/Cart';
 
-const apikey = 'pk_test_XXXXXXXXXXXXXXXXXXX';  //your Stripe public Key
+const apikey = 'pk_test_XXXXXXXXXXXXXXXXXXXXXX';  //your Stripe public Key
 
 class Main extends Component {
 

@@ -1,6 +1,6 @@
 import Cookies from 'universal-cookie';
 
-const API_URL_GENRU = 'http://localhost:8080/api/genru';
+const API_URL_GENRU = 'http://localhost:8080/api/genre';
 const API_URL_LOGOUT = 'http://localhost:8080/api/logout';
 
 const receiveData = (genru, error) => ({

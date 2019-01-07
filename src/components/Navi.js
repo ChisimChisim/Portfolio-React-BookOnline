@@ -199,7 +199,7 @@ class Navi extends React.Component{
                             
                             <List style={{width:drawerWidth}}>
                             <ListItem button onClick={this.handleClick}>
-                                <ListItemText>Books by Genru</ListItemText>{this.state.nestOpen ? <ExpandLess /> : <ExpandMore />}
+                                <ListItemText>Books by Genre</ListItemText>{this.state.nestOpen ? <ExpandLess /> : <ExpandMore />}
                             </ListItem>   
                             <Collapse in={this.state.nestOpen} timeout="auto" unmountOnExit>
 

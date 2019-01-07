@@ -1,4 +1,4 @@
-const API_URL_BOOKLIST_GENRU = 'http://localhost:8080/api/books/genru';
+const API_URL_BOOKLIST_GENRU = 'http://localhost:8080/api/books/genre';
 const API_URL_BOOKLIST_ALL = 'http://localhost:8080/api/books/all';
 
 const startRequest = (genruId) => ({
